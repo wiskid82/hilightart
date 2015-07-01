@@ -1,0 +1,844 @@
+@charset "utf-8";
+.fix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+*:first-child+html .fix{min-height:1px;}/*ie7*/
+img{max-width:100%;vertical-align:top;}
+input[type="password"]{box-shadow:none;}
+ .inner * {  
+    box-sizing: border-box;  
+    -moz-box-sizing: border-box; Firefox 1-3  
+    -webkit-box-sizing: border-box; Safari  
+	-ms-box-sizing: border-box; 
+} 
+
+.inner{width:980px;margin:0 auto;font-family:RgL,sans-serif;}
+
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+.navi{position:relative;}
+.navi h2{color:#333;font-size:36px;padding-bottom:9px;}
+.navi .location a{color:#333;}
+.navi .location em{font-family:RgB;color:#212121;}
+
+.mt10 {margin-top:0px}
+.mt20 {margin-top:20px}
+
+/*service*/
+.navi .tphone_view{position:absolute;right:0;bottom:0;display:block;width:332px;height:55px;line-height:55px;font-size:22px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/btn_tphone.png) left top no-repeat; background-position:0px 0px;color:#fff;}
+.navi .tphone_view:hover{background-position:0px -60px;color:#063;}
+.navi .tphone_view span{padding-left:59px;}
+
+.tphone .content{padding-top:83px;color:#2d2c2c;}
+.tcontact .content{padding-top:65px;color:#2d2c2c;}
+.theme .content{padding-top:101px;}
+.looks .content{padding-top:140px;}
+.t114, .tcontact, .tphone , .theme , .looks{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/bg_top.jpg) repeat-x center top;padding-top:75px;}
+.faq{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_top.jpg) repeat-x center top;padding-top:75px;}
+
+.t114 .content{padding-top:90px;color:#2d2c2c;}
+.section{position:relative;width:100%;}
+.section:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.section .left{float:left;}
+.section .right{float:right;}
+.section h3{font-size:52px;margin-bottom:17px;letter-spacing:-3px;display:inline-block;font-family:RgB;font-weight:normal;}
+.section .title{font-size:26px;letter-spacing:-1px;padding-bottom:13px;}
+.section .title span{color:#008d2e;}
+.section .text{font-size:20px;letter-spacing:-1px;line-height:26px;}
+.section .img{display:none;}
+
+.link .utb{display:inline-block;width:259px;height:46px;line-height:46px;padding-left:25px;background:url(/common/images/service/btn_utb.png) no-repeat;font-size:22px;color:#fff;text-align:left;display:inline-block;background-size:100% 100%;}
+.link .utb:hover{background:url(/common/images/service/btn_utb_over.png) no-repeat;background-size:100% 100%;}
+.link .more{display:inline-block;width:144px;height:46px;line-height:46px;background:url(/common/images/service/btn_more.png) no-repeat;text-align:center;color:#fff;display:inline-block;font-size:22px;background-size:100% 100%;}
+.link .more:hover{background:url(/common/images/service/btn_more_over.png) no-repeat;color:#008d2e;background-size:100% 100%;}
+
+.link .utb + .more{margin-left:5px;}
+.tphone .sec00{height:371px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone00.png) right top no-repeat;margin-bottom:111px;}
+.tphone .sec01{height:450px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone02.png) left top no-repeat;margin-bottom:70px;}
+.tphone .sec02{height:390px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone01.png) right top no-repeat;margin-bottom:96px;}
+.tphone .sec03{height:372px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone03.png) left top no-repeat;margin-bottom:68px;}
+.tphone .sec04{height:498px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone04.png) right top no-repeat;margin-bottom:60px;}
+.tphone .sec05{height:360px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone05.png) left top no-repeat;margin-bottom:13px;}
+.tphone .sec06{height:395px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone06.png) right top no-repeat;margin-bottom:132px;}
+.tphone .sec07{height:371px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone07.png) left 0 no-repeat;margin-bottom:132px;}
+.tphone .sec00 .txtBox{height:195px;margin:36px 0 54px 0;}
+.tphone .sec01 .txtBox{height:264px;margin:0px 87px 60px 0;}
+.tphone .sec02 .txtBox{height:195px;margin:14px 0 57px 0;}
+.tphone .sec03 .txtBox{margin:10px 0 29px 0;}
+.tphone .sec04 .txtBox{height:217px;margin:82px 20px 50px 0;}
+.tphone .sec05 .txtBox{height:166px;margin:36px 0 0 0;}
+.tphone .sec06 .txtBox{margin-top:70px;}
+.tphone .sec07 .txtBox{height:233px;margin:21px 0 40px;}
+.tphone .sec07 .link a + a{margin-left:8px;}
+.tcontact .sec01{height:370px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tcontact01.png) right top no-repeat;margin-bottom:77px;}
+.tcontact .sec02{height:370px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tcontact02.png) left top no-repeat;margin-bottom:83px;}
+.tcontact .sec03{height:370px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tcontact03.png) right top no-repeat;margin-bottom:100px;}
+.tcontact .sec01 .txtBox{height:215px;width:380px;margin:20px 0 64px 0;}
+.tcontact .sec02 .txtBox{height:163px;width:400px;margin:10px 21px 120px 0;}
+.tcontact .sec03 .txtBox{height:218px;width:448px;margin:10px 0 66px 0;}
+.t114 .sec01{height:544px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_t11401.png) right 78px no-repeat;margin-bottom:90px;}
+.t114 .sec01 .txtBox{width:384px;height:405px;margin:0 0 82px 0;}
+.t114 .sec02{height:426px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_t11402.png) left 0px no-repeat;margin-bottom:0px;}
+.t114 .sec02 .txtBox{width:540px;height:350px;margin:20px 0 0 0;}
+.theme .sec01{height:544px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_theme.png) right 0 no-repeat;}
+.theme .sec01 .txtBox{width:384px;height:303px;margin:1px 0 0 0;}
+.theme .sec01 .txtBox .title, .theme .sec02 .txtBox .title, .theme .sec03 .txtBox .title{font-size:26px;}
+.theme .sec01 .txtBox .text, .theme .sec02 .txtBox .text, .theme .sec03 .txtBox .text{width:84%;line-height:normal;}
+.theme .sec02{margin-bottom:90px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_theme2.png) left 0 no-repeat;}
+.theme .sec02 .txtBox{margin-bottom:60px;height:380px;}
+.theme .sec02 .title.pc{display:block;}
+.theme .sec02 .title.mobile{display:none;}
+.theme .sec02 .step{clear:both;}
+.theme .sec02 .step li{color:#2d2c2c;}
+.theme .sec02 .step li:first-child{margin-bottom:35px;}
+.theme .sec02 .step li h4{font-size:26px;margin-bottom:13px;}
+.theme .sec02 .step li h4 em{font-family:Rgb;}
+.theme .sec02 .step li p{font-size:20px;margin-bottom:15px;}
+.theme .sec02 .step li .btn a{width:259px;height:46px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/bg_download.png) no-repeat;background-size:100% auto;display:inline-block;text-align:center;color:#fff;font-size:22px;padding-top:10px;margin-right:10px;}
+.theme .sec02 .step li .btn a:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/bg_download_over.png) no-repeat;color:#2ba051;background-size:100% auto;}
+.theme .sec03{margin-bottom:60px;}
+.theme .sec03 .txtBox .title{margin-bottom:20px;padding:0;}
+/*.looks .section .title{font-size:20px;}*/
+.looks .sec01{height:441px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_looks01.png) right 70px no-repeat;margin-bottom:100px;}
+.looks .sec02{height:370px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_looks02.png) left top no-repeat;margin-bottom:100px;}
+.looks .sec03{height:370px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_looks03.png) right top no-repeat;margin-bottom:100px;}
+.looks .sec01 .txtBox{width:440px;margin:0 0 0 0;}
+.looks .sec02 .txtBox{width:420px;margin:45px 0 0 0;}
+.looks .sec03 .txtBox{width:360px;margin:65px 0 0 0;}
+
+/*scroll spy menu*/
+.mapPosIn{display:block;padding:15px 0;position:fixed;top:380px;left:50%;margin-left:540px;}
+.mapPosIn .directMn li a{padding:2px 0;font-size:14px;color:#6f6a59;font-weight:bold;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/bg_tabmenu_off.gif) left center no-repeat !important;padding-left:25px;}
+.mapPosIn .directMn li.on a{color:#008d2e !important;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/bg_tabmenu_on.gif) left center no-repeat !important;}
+.mapPosIn .directMn li a:hover{color:#0D7E3E;}
+.mapPosIn .directMn li a:hover span{border-bottom:1px solid #0D7E3E;}
+.mapPosIn .directMn li + li{padding-top:22px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/bg_directMn.gif) 8px top repeat-y;}
+.mapPosIn .goTop{display:inline-block;margin-top:45px;}
+
+.goTop{width:54px;height:23px;line-height:23px;font-size:12px;color:#fff !important;text-align:center;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/bg_goTop.png) no-repeat;background-size:54px 23px;}
+.goTop:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/bg_goTop_over.png) no-repeat;background-size:54px 23px;}
+
+#data_panel{padding-top:0px;position:relative;}
+
+/*customer*/
+.faq .faqTop{border:1px solid #e9e9e9;padding:30px 0;margin:68px 0 42px;}
+.faq .faqTop .tit{text-indent:-9999999px;font-size:0;float:left;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/tit_faq_w.png) center top no-repeat;width:267px;height:188px;border-right:1px solid #eaeaea;}
+.faq .faqTop .faqTopList{float:right;width:635px;margin-right:40px;}
+.faq .faqTop .faqTopList li{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_q_56.png) left 2px no-repeat;padding:0 0 2px 37px;}
+.faq .faqTop .faqTopList li a{display:block;text-align:right;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_faqList.gif) left center repeat-x;}
+.faq .faqTop .faqTopList li .faqTopList{float:left;padding-top:4px;color:#4d4d4d;font-size:18px;background-color:#fff;padding-right:13px;display:inline-block;text-align:left;max-width:75%;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.faq .faqTop .faqTopList li a:hover .faqTopList span {display:inline;border-bottom:1px solid #4d4d4d;}
+.faq .faqTop .faqTopList li a:hover .faqTopList {text-decoration:underline;}
+.faq .faqTop .faqTopList li + li{margin-top:12px;}
+
+.faq .faq_tab{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_faq_tab.gif) left top repeat-x;padding:53px 0 40px;}
+.faq .faq_tab a{display:inline-block;width:49.7%;border:1px solid #bbbbbb;background-color:#fff;color:#7d7d7d;font-weight:bold;font-size:22px;height:58px;line-height:58px;text-align:center;position:relative}
+.faq .faq_tab a.on , .faq .faq_tab a:hover{border:1px solid #bbb;background-color:#707070;color:#fff;}
+.faq .faq_tab a.on:after , .faq .faq_tab a:hover:after{content:"";background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/common/bg_sel.gif) no-repeat;width:22px;height:10px;position:absolute;bottom:-1px;left:50%;margin-left:-11px;}
+
+.faq .customerQ{height:440px;}
+.faq .selectMenu{float:left;width:325px;height:440px;padding:20px 30px 0;border:1px solid #e2e2e2;}
+.faq .selectMenu fieldset{position:relative;border:1px solid #d1d1d1;}
+.faq .selectMenu fieldset *{vertical-align:middle;}
+.faq .selectMenu fieldset input{width:85%;height:32px;line-height:22px;margin-top:2px;padding-left:5px;border:none;}
+.faq .selectMenu fieldset button{float:right;height:34px;width:34px;border:none;border-left:1px solid #a4a4a4; background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_search.gif) 3px 4px no-repeat;text-indent: -999999px;font-size: 0;}
+.faq .selectMenu fieldset button:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_search_over.gif) 3px 4px no-repeat;background-color:#bbb;}
+.faq .selectMenu fieldset input{line-height:35px\9;}
+.faq .selectMenu ul li{float:left;width:50%;padding-top:26px;text-align:center;color:#707070;font-size:16px;}
+.faq .selectMenu ul li p{padding-top:9px;letter-spacing:-1px;}
+.faq .selectMenu ul li.on{color:#029905;font-weight:bold;}
+.faq .selectMenu ul li a{width:63px;height:63px;overflow:hidden;display:inline-block;}
+.faq .selectMenu ul li a:hover img{margin-top:-63px;}
+.faq .selectMenu ul li.on a img{margin-top:-63px;}
+.faq #help ul #tabItems1.on p{color:#008d2e;}
+.faq #help ul #tabItems2.on p{color:#ff4200;}
+.faq #help ul #tabItems3.on p{color:#ff9600;}
+.faq #help ul #tabItems4.on p{color:#ffba00;}
+.faq #help ul #tabItems5.on p{color:#9d1418;}
+.faq #help ul #tabItems6.on p{color:#0989ff;}
+.faq #question ul #tabItems1.on p{color:#ff9600;}
+.faq #question ul #tabItems2.on p{color:#8ccd00;}
+.faq #question ul #tabItems3.on p{color:#da008b;}
+.faq #question ul #tabItems4.on p{color:#ff4200;}
+.faq #question ul #tabItems5.on p{color:#5d008d;}
+.faq #question ul #tabItems6.on p{color:#160066;}
+.faq #help ul #tabItems1:hover p{color:#008d2e;}
+.faq #help ul #tabItems2:hover p{color:#ff4200;}
+.faq #help ul #tabItems3:hover p{color:#ff9600;}
+.faq #help ul #tabItems4:hover p{color:#ffba00;}
+.faq #help ul #tabItems5:hover p{color:#9d1418;}
+.faq #help ul #tabItems6:hover p{color:#0989ff;}
+.faq #question ul #tabItems1:hover p{color:#ff9600;}
+.faq #question ul #tabItems2:hover p{color:#8ccd00;}
+.faq #question ul #tabItems3:hover p{color:#da008b;}
+.faq #question ul #tabItems4:hover p{color:#ff4200;}
+.faq #question ul #tabItems5:hover p{color:#5d008d;}
+.faq #question ul #tabItems6:hover p{color:#160066;}
+.faq .selectViewBox{float:right;background-color:#f5f5f5;width:650px;position:relative;}
+.faq .selectViewBox #view{text-align:center;line-height:440px;}
+.faq .selectViewBox #view .default{display:inline-block;color:#676767;font-size:15px;font-weight:bold;height:26px;line-height:26px;padding-left:18px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/ico_left.png) left 4px no-repeat;}
+.faq .selectView{padding:0 43px 0 37px;}
+.faq .selectView .title{padding:30px 0 26px;color:#4a4a4a;font-size:17px;font-weight:bold;border-bottom:1px dashed #868686;}
+.faq .selectView .title .btnGo{display:none;}
+.faq .selectView .title .cl{color:#029905;}
+.faq .selectView .title .under{border-bottom:2px solid #cbcbcb;}
+.faq .selectView .qList{padding:30px 0;}
+.faq .selectView .qList li{font-size:14px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_qlist.png) left top no-repeat;padding:2px 0 5px 30px;line-height:18px;}
+.faq .selectView .qList li.normal{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_qlist_w.png) left top no-repeat;}
+.faq .selectView .qList li a{display:inline-block;}
+.faq .selectView .qList li a:hover span{border-bottom:1px solid #4d4d4d;}
+.faq .selectView .qList li + li{margin-top:12px;}
+.faq .selectView .paging{text-align:center;position:absolute;left:0;bottom:10px;width:100%;}
+.faq .selectView .paging a{font-size:14px;color:#4d4d4d;}
+.faq .selectView .paging a + a{margin-left:25px;}
+.faq .selectView .paging a.on{color:#029905;font-weight:bold;border-bottom:1px solid #029905;}
+.faq .qLink{display:block;margin-top:40px;padding:15px 30px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_qList.gif) left top repeat-x;clear:both;}
+.faq .qLink *{vertical-align:middle;}
+.faq .qLink span{padding-left:5px;}
+.faq .qLink a{display:inline-block;width:11%;}
+.faq .qLink .qt{width:88px;height:33px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/btn_question.png) left top no-repeat;text-indent:-999999999px;font-size:0;}
+.faq .qLink .qt:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/btn_question_over.png) left top no-repeat;}
+
+/*faq view*/
+.pageNavi{float:right;padding-top:-10px !important;}
+.pageNavi button{display:inline-block;width:116px;height:38px;font-size:18px;font-family:RgB;color:#fff;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_prevB.png) left top no-repeat;background-size:100% 100%;}
+.pageNavi button:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_prevB_over.png) left top no-repeat;color:#6a6a6a;}
+.pageNavi1{padding:20px 0 10px;}
+.customerView {border-left:1px solid #e2e2e2;margin-top:38px;}
+.customerView .selectView{display:block;width:325px;float:left;position:relative;height:440px;}
+.customerView .selectView .paging{position:absolute;bottom:-30px;left:0;width:100%;}
+.customerView .selectView .qList li.on a{font-weight:bold;}
+.prevPage{position:absolute;left:-12px;top:27px;}
+a.prevPage img {width:26px;height:26px;}
+.faq .customerView .selectViewBox{padding:0 25px;}
+.faq .customerView .selectViewBox .title{display:block;line-height:20px;padding:30px 0 25px 40px;color:#4d4d4d;font-size:17px;font-weight:bold;border-bottom:1px solid #bfbfbf;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_txt_q.png) left 32px no-repeat;}
+.faq .customerView .selectViewBox .title_m{display:none;}
+.faq .customerView .selectViewBox .answer{padding:24px 0 30px 40px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_txt_a.png) left 27px no-repeat;font-size:14px;line-height:20px;word-break:normal;}
+.faq .customerView .selectViewBox .answer p{word-break:normal;}
+.faq .customerView .title.top5{font-size:26px;padding:26px 0 20px 0px;}
+
+.faq .customerView.write .selectView .title{font-size:15px;border-bottom:none;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_img_q.png) left 28px no-repeat;padding-left:30px;}
+.faq .customerView.write .selectView .title.on{font-family:"RgB" , sans-serif;}
+.faq .customerView.write .selectView .title + .title{margin-top:-10px;padding-top:3px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_img_q.png) left top no-repeat;}
+.faq .customerView.write .selectViewBox .title{background:none;padding-left:0;color:#008d2e;}
+
+.faq .selectView1{padding:0 43px 0 37px;}
+.faq .selectView1 .title{padding:30px 0 26px;color:#4a4a4a;font-size:17px;border-bottom:1px dashed #868686;}
+.customerView .selectView1 {display:block;width:325px;float:left;position:relative;height:440px;}
+.faq .customerView.write .selectView1 .title{font-size:15px;border-bottom:none;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_img_q.png) left 28px no-repeat;padding-left:30px;}
+.faq .customerView.write .selectView1 .title.on{font-family:"RgB" , sans-serif;font-size: 16px;}
+.faq .customerView.write .selectView1 .title + .title{margin-top:-10px;padding-top:3px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_img_q.png) left top no-repeat;}
+
+
+/*문의하기 view*/
+.selectView .aList{padding:19px 0 11px 0;font-size:15px;color:#4a4a4a;}
+.selectView .aList dt{font-weight:bold;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bar_alist_dt.gif) left 7px no-repeat;padding-left:14px;padding-bottom:7px;}
+.selectView .aList dd{margin-top:13px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_img_q.png) left top no-repeat;}
+.selectView .aList dd a{color:#4a4a4a;margin-left:32px;line-height:25px;}
+.selectView .aList dd a:hover{border-bottom:1px solid #4a4a4a;}
+
+.writeQ{padding:20px 0 30px;}
+.writeQ .point_r{color:#e35227;padding-left:11px;font-size:15px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_ps.gif) left 4px no-repeat;padding-bottom:10px;}
+.writeQ .point_r1 {color:#4d4d4d;padding-left:11px;font-size:15px;background:url("http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_ps.gif") left 4px no-repeat !important;padding:20px 0 10px;}
+.writeQ .tit_q{padding:0 0 15px 14px;margin-top:50px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bar_alist_dt.gif) left 7px no-repeat;font-size:15px;}
+.writeQ .enter{width:100%;}
+.writeQ .enter label{display:inline-block;width:35%;font-size:15px;color:#4d4d4d;font-weight:normal;text-align:left;padding-left:11px;font-family:RgB;}
+.writeQ .enter li.ps label{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_ps.gif) left 4px no-repeat;vertical-align:top;}
+.writeQ .enter li.ps .tit{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_ps.gif) left 4px no-repeat;vertical-align:top; display:inline-block;font-size:15px;color:#4d4d4d;font-weight:normal;text-align:left;padding-left:11px;font-family:RgB;}
+.writeQ .enter li .tit{vertical-align:top; display:inline-block;font-size:15px;color:#4d4d4d;font-weight:normal;text-align:left;padding:10px 0 10px 11px;}
+.writeQ .enter li.ps1 label{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_ps.gif) left 12px no-repeat;vertical-align:top; padding:8px 0 0 11px;}
+.writeQ .enter li{padding:5px 0;}
+.writeQ .enter li.full label{width:100%;padding-bottom:5px;}
+.writeQ .enter li.full label.str{width:97%;font-size:12px;text-indent:-14px;margin-left:14px;}
+.writeQ .enter li.full input[type="text"], .writeQ .enter li.full input[type="password"]{width:100%;}
+.writeQ .enter li.full textarea{width:100%;}
+.writeQ .enter input[type="text"] , .writeQ .enter input[type="password"]{width:65%;padding:12px;border:1px solid #bbb;border-radius:0;}
+.writeQ .enter textarea{width:65%;height:140px;overflow-y:auto;padding:12px;border:1px solid #bbb;border-radius:0;}
+.writeQ .enter textarea[name=callTxt]{height:300px;}
+.writeQ .enter .agree{background-color:#fff;margin:18px 0;width:100%;height:140px;overflow-y:auto;padding:12px;border:1px solid #bbb;font-size:11px;color:#707070;line-height:18px;}
+.writeQ .enter .check{text-align:center;}
+.writeQ .enter .check *{vertical-align:top;}
+.writeQ .enter .check label{color:#474747;font-size:13px;padding-left:6px;width:auto;}
+.btnSend{width:650px;padding:40px 0 70px;float:right;text-align:center}
+.btnSend button{width:174px;height:55px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/common/btn_174.png) left top no-repeat;color:#fff;font-size:24px;font-weight:bold;background-size:100% 100%;}
+.btnSend button:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/common/btn_174_over.png) left top no-repeat;color:#008d2e;background-size:100% 100%;}
+
+.writeQ .enter li.file input[type="text"]{width:47.5%;}
+.writeQ .enter li.file .file_input_div{display:inline-block;position: relative; width: 100px; height:40px; overflow: hidden;}
+.writeQ .enter li.file .file_input_button{width:100px;height:40px;line-height:40px;font-family:Rgb;background:#707070;border:1px solid #707070;color:#fff;text-align:center;font-size:14px;margin-bottom:5px;cursor:pointer;}
+.writeQ .enter li.file .file_input_div:hover .file_input_button{background:#fff;border:1px solid #707070;color:#707070;}
+.writeQ .enter li.file .file_input_button1{width:100px;height:41px;position: absolute; top:0px;font-size:15px;background-color:#949494;color:#FFFFFF;border:none;font-family:"RgB" , sans-serif;box-shadow:none;border-radius:0;}
+.writeQ .enter li.file .file_input_hidden{height:41px;font-size:25px; position:absolute; right:0px; top:0px; opacity: 0; filter: alpha(opacity=0); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";-khtml-opacity: 0; -moz-opacity: 0;cursor:pointer;}
+.writeQ .enter li.file *{vertical-align:middle;}
+
+/*blog*/
+.blog{padding-top:75px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/bg_top.jpg) repeat-x left top;}
+.blog .subHd{padding-bottom:35px;}
+.blog .subHd h3{color:#4d4d4d;font-size:34px;font-family:"RgB" , sans-serif;padding-bottom:12px;display:none;}
+.blog .subHd h4{color:#424242;font-size:18px;padding-bottom:40px;}
+.blog .subHd fieldset{float:right;border:1px solid #d1d1d1;width:320px;position:relative;}
+.blog .subHd fieldset *{vertical-align:middle;}
+.blog .subHd fieldset input{height:26px;line-height:26px;width:auto;border:none;width:90%;padding:0 10px;}
+.blog .subHd fieldset button{display:inline-block;position:absolute;right:0;top:0;text-align:center;border-left:1px solid #d1d1d1;height:26px;width:28px;text-indent:-999999px;font-size:0;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_search.gif) left top no-repeat;background-size:100% 100%;}
+.blog .subHd fieldset button:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_search_over.gif) left top no-repeat;background-size:100% 100%;}
+.blog .grid {position:relative;}
+.blog .grid .item{position:relative;border:3px solid #e9e9e9;margin-right:2.5%;margin-bottom:30px;padding-bottom:47px;float:left;}
+.blog .grid .item:hover{border:3px solid #ffaf00;}
+.blog .grid .item-visual{position:relative;overflow:hidden;}
+.blog .grid .item-visual a{display:block;cursor:pointer;width:100%; height:100%;}
+.blog .grid .item-visual a img{max-width:100%;height:auto;}
+.blog .grid .item .item-text{background: #fff;bottom: 0;min-height:47px;padding: 14px 15px 13px;position: absolute;width:100%;border-top:1px solid #e9e9e9;}
+.blog .grid .item .item-text button{float:right;margin-top:3px;height:15px;line-height:15px;padding-left:20px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/bg_cmd_w.png) left top no-repeat;background-size:16px 15px;color:#f27f57;font-size:12px;}
+.blog .grid .item .item-text span{display:inline-block;width:70%;max-height:40px;overflow:hidden;font-size:14px;line-height:20px;}
+.blog .grid .item .item-text span.a1{width:100% !important;}
+.blog .grid .item-big {width:65.8%;}
+.blog .grid .item-big .item-visual{height:407px;}
+.blog .grid .item-big .item-visual a img{max-width:100%;height:100%;}
+.blog .grid .item-medium{width:31.6%;}
+.blog .grid .item-medium .item-visual{height:164px;}
+.blog .grid .item-small{width:31.6%;}
+.blog .grid-1 .item-text .text{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.blog .grid .item-small .item-visual{height:164px;}
+.blog .grid-1 .item-4{clear:left;/*margin-top:-20px;*/}
+/*.blog .grid-1 .item-6{margin-top:-20px;}*/
+.blog .grid-0 .text	{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.blog .grid-0 .text1{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:90%;}
+
+.grid-0 .item-2 , .grid-0 .item-3 , .grid-1 .item-3, .grid-1 .item-6{margin-right:0 !important;}
+.blog .grid .item .item-text .text a span{display:inline;}
+.blog .grid .item-visual{position:relative;overflow:hidden;}
+.blog .grid .more{position:absolute;right:0;top:-44px;width:53px;height:23px;line-height:23px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/main/bg_webMore.png) no-repeat;background-size:53px 23px;color:#fff;text-align:center;}
+.blog .grid .more:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/main/bg_webMore_over.png) no-repeat;background-size:53px 23px;}
+
+/*blogView*/
+.blogView{color:#2a2a2a;}
+.blogView .title{font-size:21px;font-family:"RgB",sans-serif;padding-bottom:11px;}
+.blogView .title * , .blog .blogView .detail .uTit *{vertical-align:middle;}
+.blogView .title .bold{font-size:21px;padding-right:10px;margin-top:0;}
+.blog .blogView .recommend,
+.blog .blogView .recommend1{z-index:10;margin-top:-1px;margin-left:5px;height:21px;line-height:21px;padding-left:26px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/bg_cmd.png) left top no-repeat;background-size:21px 19px;color:#f27f57;font-size:21px;font-family:"RgB",sans-serif;}
+.blogView .date{float:left;font-size:15px;line-height: 38px;}
+.blogView .dateRight{float:right;font-size:15px;line-height: 38px;}
+.blogView .pagebtn{float:right;}
+.blogView .detail{margin-top:50px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_faq_tab.gif) left top repeat-x;padding:44px 0 60px;border-bottom:1px solid #d9d9d9;line-height:23px;}
+.blog .blogView .detail .uTit{text-align:right;margin-top:30px;}
+.blog .blogView .detail p{font-size:14px;}
+.blog .blogView .detail .information{font-size:14px;line-height:25px;padding-bottom:33px;border-bottom:1px solid #d9d9d9;margin-bottom:80px;}
+.blog .blogView .detail .img{text-align:center;padding-bottom:70px;}
+.blog .blogView .detail .frameVideo {width:643px;margin:0 auto;}
+.blog .blogView .detail .frameVideo .video{width:643px;height:362px;margin:0 auto;}
+.blog .blogView .detail .frameVideo .uTit{margin-top:30px;line-height:34px;}
+.blog .blogView .detail .frameVideo .uTit span{letter-spacintg:-1px;font-size:13px;}
+.blog .blogView .btn_rcmd{width:115px;height:34px;margin-left:10px;line-height:34px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_cmd_w.gif) left top no-repeat;text-indent:-9999999999px;font-size:0;}
+.blog .blogView .btn_rcmd:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_cmd_w_over.gif) left top no-repeat;}
+.blog .blogView .btn_rcmd1{height:21px;line-height:21px;margin:0 10px;padding-left:10px;border-left:1px solid #f27f57;font-size:20px; color:#f27f57;}
+.blog .blogView .btn_rcmd1:hover{text-decoration:underline;}
+
+.blog .blogView_paging{position:relative;text-align:right;padding:30px 0;}
+.blog .blogView_paging a{margin:0;line-height:23px;}
+.blog .blogView_paging a.on{color:#029905;border-bottom:2px solid #029905;font-weight:bold;}
+.blog .blogView_paging .listbt{display:inline-block;width:116px;height:38px;text-align:center;line-height:38px;font-size:18px;font-family:RgB;color:#fff;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_prevB.png) left top no-repeat;background-size:100% 100%;}
+.blog .blogView_paging .listbt:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_prevB_over.png) left top no-repeat;color:#6a6a6a;}
+.blog .blogView_paging .fbshare{padding-left:13px;display:inline-block;width:116px;height:38px;text-align:center;line-height:38px;font-size:18px;font-family:RgB;color:#fff;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_fbshare.png) left top no-repeat;background-size:100% 100%;}
+.blog .blogView_paging .fbshare:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_fbshare_over.png) left top no-repeat;color:#397cda;}
+.blog .blogView_paging .list{float:left;width:65px;height:23px;background:url("http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/common/bg_list.png") left top no-repeat;margin:0;color:#fff;background-size:100% 100%;}
+.blog .blogView_paging .top{float:right;width:43px;height:23px;background:url("http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/common/bg_top.png") left top no-repeat;margin:0;color:#fff;}
+.blog .blogView_paging a img{vertical-align:middle;}
+
+.blog .blogView_paging .arrow1{display:inline-block;width:6px;height:11px;text-indent:-99999999999px;font-size:0;margin-}
+.blog .blogView_paging .arrow2{display:inline-block;width:10px;height:11px;text-indent:-99999999999px;font-size:0;}
+
+.blog .blogView_paging .firstP{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_firstP_w.gif) left top no-repeat;}
+.blog .blogView_paging .prevP{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_prevP_w.gif) left top no-repeat;} 
+.blog .blogView_paging .nextP{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_nextP_w.gif) left top no-repeat;}
+.blog .blogView_paging .lastP{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_lastP_w.gif) left top no-repeat;}
+
+.blog .blogView_paging .arrow1 + .arrow2{margin-left:0;}
+.blog .blogView_paging .arrow2 + .arrow1{margin-left:0;}
+
+.blog .reply{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_faq_tab.gif) left top repeat-x;padding-top:100px;}
+.blog .reply .th{border-top:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;background-color:#f6f6f6;padding:25px 64px 25px 73px;color:#2a2a2a;font-size:17px;font-family:"RgB",sans-serif;}
+.blog .reply .th .btnReply{float:right;color:#2a2a2a;font-size:17px;font-family:"RgB",sans-serif;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/icon_reply_off.png) left center no-repeat;background-size:11px 7px;padding-left:20px;}
+.blog .reply .th .btnReply.on{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/icon_reply_on.png) left center no-repeat;background-size:11px 7px;}
+.blog .reply .th.on + .replyWr{display:none;}
+
+.blog .reply .replyWr{padding-top:8px;}
+.blog .reply .replyWr ul li{text-align:left;padding:8px 197px 8px 73px;}
+.blog .reply .replyWr ul li input{padding:12px;border:1px solid #bbb;border-radius:0;width:90%;}
+.blog .reply .replyWr ul li p{float:left;width:50%;text-align:right;}
+.blog .reply .replyWr ul li p:first-child{text-align:left;}
+.blog .reply .replyWr ul li p label{width:20%;}
+.blog .reply .replyWr ul li p input{width:70%;}
+.blog .reply .replyWr ul li label{vertical-align:top;display:inline-block;width:10%;text-align:left;color:#2a2a2a;font-size:17px;padding-top:10px;}
+.blog .reply .replyWr ul li textarea{width:90%;height:160px;overflow-y:auto;padding:12px;border:1px solid #bbb;border-radius:0;}
+.blog .reply .regi{text-align:right;padding:16px 197px 16px 73px;}
+.blog .reply .regi button{width:110px;height:41px;line-height:41px;text-align:center;background-color:#707070;color:#fff;font-family:"RgB",sans-serif;}
+.blog .reply .regi button:hover{background-color:#0D7E3E;}
+.blog .blogViewTb table{width:100%;}
+.blog .blogViewTb table th{border-top:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;background-color:#f6f6f6;padding:25px 0;color:#2a2a2a;font-size:17px;font-family:"RgB",sans-serif;}
+.blog .blogViewTb table td{text-align:center;font-size:17px;padding:25px 0;border-bottom:1px solid #d9d9d9;}
+.blog .blogViewTb table td a{display:inline-block;text-align:left;width:100%;padding-left:20px;position:relative;}
+.blog .blogViewTb table td a *{vertical-align:middle;}
+.blog .blogViewTb table td a img{position:absolute;left:0;top:3px;}
+.blog .blogViewTb table td .lock{text-align:left;font-size:14px;padding:20px 0 10px 20px;}
+.blog .blogViewTb table td .lock p{line-height:25px;padding-bottom:5px;}
+.blog .blogViewTb table td .lock span{color:#f15542;}
+.blog .blogViewTb table td .lock input{width:40%;padding:12px;border:1px solid #bbb;border-radius:0;}
+.blog .blogViewTb table td .lock .ok{margin-left:10px;width:110px;height:41px;line-height:41px;text-align:center;background-color:#707070;color:#fff;font-family:"RgB",sans-serif;}
+.blog .blogViewTb table td .lock .ok:hover{background-color:#0D7E3E;}
+.blog .blogViewTb table td .openLk + .lock{display:none;}
+.blog .blogViewTb table td .openLk.on + .lock{display:block;}
+
+/*eventEnd*/
+.viewEventEnd {padding:65px 0;text-align:center;}
+.viewEventEnd a{display:inline-block;width:243px;padding:16px 0;text-align:center;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/event/btn_viewEventEnd.png) left top no-repeat;color:#fff;font-size:24px;font-family:"RgB",sans-serif;}
+.viewEventEnd a:hover{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/event/btn_viewEventEnd.png) left -56px no-repeat;color:#2ba051;}
+
+/* privacy */
+.privacy {margin-top:40px; font-size:13px; line-height:140%;}
+.privacy h3 {font-size:21px;letter-spacing:-2px;padding:30px 0 10px; line-height:120%;}
+.privacy .privacy_li li {margin-bottom:10px; background: url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_pop_txt.gif) no-repeat 2px 6px; padding-left:10px;}
+.privacy .privacy_txt	{margin:0 0 10px; font-size:13px;}
+.privacy .privacy_dl	{margin:16px 0;}
+.privacy .privacy_dl dl	{margin:8px 0;}
+.privacy .privacy_dl dt	{font-size:14px; font-weight:bold;}
+.privacy .privacy_dl dd	{padding-left:10px;margin-top:4px;}
+
+table.type01			{width:100%; border:1px solid #bbb !important; font-size:10pt;}
+table.type01 thead th	{color:#fff; font-size:11pt; padding:12px 0; background:#5a5a5a; font-weight:600; text-align:center !important; border-right:1px solid #999;}
+table.type01 thead th:last-child	{border-right:0px solid #fff;}
+table.type01 tbody tr	{background-color:#fff; }
+table.type01 tbody th	{color:#343434;font-weight:300; border-bottom:1px solid #bbb; border-right:1px solid #bbb;}
+table.type01 tbody td	{color:#343434;font-weight:300; border-bottom:1px solid #bbb; border-right:1px solid #bbb; text-align:left; padding-left:10px;}
+table.type01 tbody td:last-child	{border-right:0px solid #bbb;}
+table.type01 td, 
+table.type01 th			{color:#a4a4a4;font-weight:300; padding:12px 0; text-align:center; line-height:1.4}
+
+
+/*pop*/
+.layer{display:none;position:absolute;top:0;left:0;z-index:100;width:100%;}
+.pop{position:relative;margin-left:auto;margin-right:auto;}
+.pop .closePop{position:absolute;top:-63px;right:0;width:74px;height:63px;}
+#utube{display:none;padding:16px;background-color:#fff;border-radius:5px;width:853px;height:510px;}
+#utube .frameBox{width:853px;height:510px;}
+
+#suggestPop{width:655px;height:435px;padding:40px 50px;background-color:#fff;}
+#suggestPop h1{font-size:26px;color:#008d2e;font-family:"RgB",sans-serif;text-align:center;padding-bottom:20px;}
+#suggestPop .text{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_pop_txt.gif) 2px 7px no-repeat;padding-left:12px;color:#444;font-size:16px;line-height:20px;padding-bottom:32px;}
+#suggestPop .agree{color:#707070;padding:20px 10px;border:1px solid #bababa;height:140px;overflow-y:auto;overflow-x:hidden;}
+#suggestPop .btn{text-align:center;}
+#suggestPop .btn button{width:144px;}
+#suggestPop .btn button + button{margin-left:10px;}
+#suggestPop .chkAgree{text-align:center;padding:20px 0;}
+.faq .selectViewBox{min-height:440px;\9;}
+@media all and (min-width: 768px){
+.faq .selectViewBox{min-height:440px;}
+
+}
+
+@media only screen and (max-width: 1370px){
+.directMn li a span{display:none;}
+.directMn {padding-left:15px;}
+}
+
+@media all and (max-width: 980px){ 
+.inner{width:100%;}
+.mapPosIn{display:none;}
+.faq .faqTop{margin-top:30px;}
+.faq .faqTop .tit{width:197px;height:173px;padding:0 0 0 0;border-right:1px solid #eaeaea;background-size:133px auto;background-position:center center;}
+.faq .faqTop .faqTopList {width:65%;margin-right:20px;}
+.faq .faqTop .faqTopList li{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_q.png) left top no-repeat;padding-left:38px;background-size:25px 25px;padding-bottom:2px;}
+.customerView .selectView {width:35%;}
+.customerView .selectView1 {width:35%;}
+.faq .selectMenu{float:left;width:35%;height:440px;padding-left:0;padding-right:0;}
+.faq .selectMenu fieldset{margin-left:10px;margin-right:10px;}
+.faq .selectMenu .tabItems {margin:0 13px;}
+.faq .selectViewBox {width:65%;}
+.faq .selectView .qList li{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_q_56.png) left 2px no-repeat;padding:3px 0 3px 24px;background-size:18px 18px;}
+.selectView .aList dd{margin-top:13px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_img_q_42.png) left 2px no-repeat;background-size:20px 20px;}
+.selectView .aList dd a{margin-left:26px;}
+
+/*eventEnd*/
+.viewEventEnd {padding:45px 0 0 0;text-align:center;}
+.viewEventEnd a{display:inline-block;width:200px;padding:14px 0;text-align:center;background-image:none;background-color:#2ba051;border:1px solid #fff;border-radius:30px;color:#fff;font-size:20px;font-family:"RgB",sans-serif;}
+.viewEventEnd a:hover{background-image:none;background-color:#fff;color:#2ba051;border:1px solid #2ba051;}
+
+/*service*/
+.section h3{font-size:40px;margin-bottom:10px;letter-spacing:-3px;display:inline-block;font-family:RgB;font-weight:normal;}
+.section .title{font-size:24px;letter-spacing:-1px;padding-bottom:13px;}
+.section .title span{color:#008d2e;word-break:keep-all;}
+.section .text{font-size:16px;letter-spacing:-1px;line-height:20px;}
+.section .img{display:none;}
+.navi .tphone_view{width:262px;height:35px;line-height:35px;background-size:100% 220%;font-size: 15px;}
+.navi .tphone_view:hover{background-position:0px -36px;color:#063;}
+.navi .tphone_view span {padding-left:50px;}
+.tphone .sec00{height:356px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone00.png) right top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tphone .sec01{height:356px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone02.png) left top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tphone .sec02{height:330px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone01.png) right top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tphone .sec03{height:330px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone03.png) left top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tphone .sec04{height:419px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone04.png) right top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tphone .sec05{height:306px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone05.png) left top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tphone .sec06{height:306px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone06.png) right top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tphone .sec07{height:356px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tphone07.png) left top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tphone .sec00 .txtBox{margin-bottom:0;}
+.tphone .sec01 .txtBox{/*background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/txt_phone02.gif) left top no-repeat;*/height:245px;margin:0 87px 0 0;}
+.tphone .sec02 .txtBox{/*background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/txt_phone01.gif) left top no-repeat;*/height:195px;margin:-10px 0 0 0;}
+.tphone .sec03 .txtBox{/*background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/txt_phone03.gif) left top no-repeat;*/margin:0 0 20px 0;}
+.tphone .sec04 .txtBox{/*background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/txt_phone04.gif) left top no-repeat;*/height:221px;margin:0 30px 0 0;}
+.tphone .sec05 .txtBox{/*background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/txt_phone05.gif) left top no-repeat;*/height:166px;margin:-40px 0 0 0;}
+.tphone .sec07 .txtBox{height:203px;}
+.tcontact .sec01{height:350px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tcontact01.png) right top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tcontact .sec02{height:370px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tcontact02.png) left top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tcontact .sec03{height:370px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_tcontact03.png) right top no-repeat;margin-bottom:0;background-size:50% auto;}
+.tcontact .sec01 .txtBox{height:190px;width:47%;margin:20px 0 0 0;}
+.tcontact .sec02 .txtBox{height:187px;width:300px;margin:16px 0 10px 0;}
+.tcontact .sec03 .txtBox{height:189px;width:50%;margin:10px 0 20px 0;}
+.t114{padding-bottom:100px;}
+.t114 .sec01{height:450px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_t11401.png) right 59px no-repeat;background-size:50% auto;margin-bottom:0;}
+.t114 .sec01 .txtBox{width:47%;height:325px;margin:0 0 20px 0;}
+.t114 .sec02{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_t11402.png) left 5px no-repeat;background-size:50% auto;margin-bottom:0;padding-top:100px;}
+.t114 .sec02 .txtBox{float:right;width:50%;margin:-55px 0 20px 0;}
+.theme .sec01{height:450px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_theme.png) right 59px no-repeat;background-size:50% auto;margin-bottom:0;}
+.theme .sec01 .txtBox{height:245px;margin:0 0 0 0;}
+.theme .sec02{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/service/img_theme2.png) left 0px no-repeat;background-size:47% auto;margin-bottom:0;}
+.theme .sec02 .txtBox{height:325px;margin:0 0 0 0;position:relative;left:20px;}
+/*.looks .section .title{font-size:20px;}*/
+.looks .sec01{background-size:50% auto;margin-bottom:70px;}
+.looks .sec02{background-size:50% auto;margin-bottom:70px;}
+.looks .sec03{background-size:50% auto;margin-bottom:70px;}
+.looks .sec02 .txtBox{width:320px;margin:45px 0 0 0;}
+
+.tcontact .section , .t114 .section ,.theme .section , .looks .section{width:95%;margin:0 auto;}
+.link .utb{display:inline-block;width:192px;height:34px;line-height:35px;font-size:15px;}
+.link .more{display:inline-block;width:110px;height:34px;line-height:35px;font-size:15px;}
+
+.writeQ{padding-bottom:0;}
+.writeQ .point_r{padding-bottom:0;}
+.writeQ .enter.enterTop .ps1 label{width:100%;padding-bottom: 5px;}
+.writeQ .enter.enterTop .ps1 input{width:100%;}
+.writeQ .enter.enterTop label{width:33%;}
+.writeQ .enter.enterTop input{width:65%;}
+.writeQ .enter label{display:inline-block;width:100%;color:#4d4d4d;font-weight:bold;text-align:left;padding-left:0;padding-bottom:5px;}
+.writeQ .enter li .tit{padding-left:0px;}
+.writeQ .enter li.ps label{padding-left:10px;}
+.writeQ .enter li.ps1 label{padding-left:10px;}
+.writeQ .enter li{padding:5px 0;margin-bottom:0px;}
+.writeQ .enter input[type="text"], .writeQ .enter input[type="password"]{width:100%;padding:10px;}
+.writeQ .enter textarea{width:100%;height:140px;}
+.writeQ .enter .agree{margin:10px 0;width:100%;height:150px;overflow:normal;padding:10px;border:1px solid #bbb;color:#707070;line-height:16px;}
+.writeQ .enter .check{text-align:center;padding:8px 0 15px 0;}
+.writeQ .enter .check *{vertical-align:middle;}
+.writeQ .enter .check label{color:#474747;padding-left:6px;width:auto;padding-top:12px;}
+.writeQ .enter input[type="checkbox"]{border:1px solid #bbb;width:13px;height:13px;border-radius:0;}
+/* .writeQ .entericon li label{padding-top:15px !important;} */
+.writeQ .enter label {font-weight: normal;}
+.writeQ .tit_q{font-weight:bold;margin-top:25px;}
+.btnSend{width:65%;padding:20px 0 40px;}
+.btnSend button{width:152px;height:45px;font-size:22px;}
+.blog .grid .item{margin-bottom:22px;}
+.blog .grid .item-big .item-visual{height:307px;}
+.blog .grid .item-big .item-visual a img{height:auto;}
+.grid-1 , .grid-2{/*display:none;*/}
+
+.blog .grid .item-medium .item-visual , .blog .grid .item-small .item-visual{height:118px;}
+/*pop*/
+.pop .closePop{position:absolute;top:-47px;right:0;width:56px;height:56px;}
+#utube{display:none;padding:16px;background-color:#fff;border-radius:5px;width:627px;height:376px;}
+#utube .frameBox{width:627px;height:376px;}
+.writeQ .enter li.file input[type="text"]{width:73%;}
+.writeQ .enter li.file .file_input_div{height:36px}
+.writeQ .enter li.file .file_input_button{height:34px;line-height:36px;margin-top:1px;}
+}
+
+@media all and (max-width: 767px){
+/*service*/
+.tphone .content , .tcontact .content , .t114 .content , .theme .content , .looks .content{padding-top:2px;}
+.tphone .section , .tcontact .section , .t114 .section , .theme .section{width:95%;margin:0 auto;}
+.section .left{float:none;}
+.section .right{float:none;}
+.section h3{width:100%;font-size:30px;padding-bottom:10px;margin-bottom:0;text-align:center;}
+.section .title{font-size:22px;text-align:center;line-height:26px;padidng-bottom:18px;}
+.section .text{display:none;}
+.section .img{display:block;margin-top:30px;text-align:center; }
+.tphone .sec00 .txtBox , .tphone .sec01 .txtBox, .tphone .sec02 .txtBox, .tphone .sec03 .txtBox, .tphone .sec04 .txtBox, .tphone .sec05 .txtBox, .tphone .sec06 .txtBox , .tphone .sec07 .txtBox{width:100%;height:auto;background:none;margin:0;}
+.tphone .sec00 , .tphone .sec01 , .tphone .sec02, .tphone .sec03, .tphone .sec04{height:auto;background:none;padding-top:0px;margin-bottom:48px;}
+.tphone .sec05 , .tphone .sec06 , .tphone .sec07{height:auto;background:none;padding-top:0px;margin-bottom:60px;}
+.tphone .sec00{height:auto;background:none;padding-top:13px;}
+.tcontact .sec01 .txtBox, .tcontact .sec02 .txtBox, .tcontact .sec03 .txtBox{width:100%;height:auto;background:none;margin:0;}
+.tcontact .sec01{height:auto;background:none;margin:15px auto 48px;} 
+.tcontact .sec02{height:auto;background:none;margin:0 auto 48px;}
+.tcontact .sec03{height:auto;background:none;margin:0 auto 48px;}
+.t114{padding-bottom:0;}
+.t114 .sec01 .txtBox, .t114 .sec02 .txtBox , .theme .sec01 .txtBox{width:100%;height:auto;background:none;margin:0;}
+.t114 .sec01{height:auto;background:none;margin:15px auto 47px;}
+.t114 .sec02{height:auto;background:none;margin:0 auto 61px;padding-top:0px;}
+.theme .sec01{height:auto;background:none;margin:15px auto 47px;}
+.theme .sec02{height:auto;background:none;margin:15px auto 47px;}
+.theme .sec02 .txtBox{position:static;height:auto;}
+.theme .sec02 .img{margin-bottom:30px;}
+.looks .sec01 , .looks .sec02 , .looks .sec03 {height:auto;background:none;margin:15px auto 47px;}
+.looks .sec01 .txtBox , .looks .sec02 .txtBox ,.looks .sec03 .txtBox{width:100%;height:auto;background:none;margin:0;}
+
+.link{text-align:center;}
+.navi .tphone_view{float:none;width:100%;padding-top:0;background-color:#2ba051;height:41px;line-height:41px;text-align:center;font-size:14px;text-indent:0;color:#fff;background-image:none;position:relative;bottom:-10px;border-top:1px solid #e9e9e9;}
+.navi .tphone_view span{background:#2ba051 url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/main/bg_terminal.jpg) left 6px no-repeat;background-size:26px 26px;padding-left:30px;display:inline-block; }
+.navi .tphone_view:hover{background-color:#fff;color:#2ba051;text-align:center;font-size:14px;text-indent:0;background-image:none;background-size:26px 26px;position:relative;bottom:-10px;border-top:1px solid #e9e9e9;}
+.navi .tphone_view:hover span{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/main/bg_terminal_over.jpg) left 7px no-repeat;background-size:26px 26px;}
+
+/*eventEnd*/
+.viewEventEnd {padding:30px 0 0 0;text-align:center;}
+.viewEventEnd a{display:inline-block;width:180px;padding:12px 0;font-size:18px;}
+
+}
+
+@media all and (max-width: 720px) {
+.t114, .tcontact, .tphone , .theme , .looks{background:none;padding-top:0;}
+.faq{background:none;padding-top:0;}
+
+.inner{width:100%;}
+.navi{position:relative;margin:0 -3% 15px;padding:0 0 8px;border-bottom:1px solid #e9e9e9;overflow:hidden;}
+.navi h2{display:none;}
+.navi .location{float:none;width:100%;padding-left:3%;}
+.navi .location a{display:inline-block;padding-top:1px;}
+
+
+.link .utb{display:inline-block;width:166px;height:32px;line-height:35px;font-size:15px;padding-left:15px;}
+.link .more{display:inline-block;width:96px;height:32px;line-height:35px;font-size:15px;}
+
+
+/*customer*/
+.faq .faqTop{padding:20px 0 0px;margin:0 0 15px;}
+.faq .faqTop .tit{float:none;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/tit_faq_m.gif) left top no-repeat;width:93%;height:65px;padding:0;margin:0 auto;border-right:none;border-bottom:1px solid #eaeaea;}
+.faq .faqTop .faqTopList{float:none;width:93%;margin:0 auto;padding:30px 0 10px;}
+.faq .faqTop .faqTopList li{padding-left:24px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_q_56.png) left 5px no-repeat;background-size:18px 18px;position:relative;overflow:hidden;clear:both;}
+.faq .faqTop .faqTopList li a{display:block;text-align:right;background:none;}
+.faq .faqTop .faqTopList li a img{width:35px;padding-top:2px;}
+.faq .faqTop .faqTopList li .faqTopList{float:left;display:inline-block;text-align:left;max-width:86%; padding:7px 0 0;font-size:16px;line-height:17px;text-overflow:normal;overflow:hidden;white-space:nowrap;text-decoration:none;}
+.faq .faqTop .faqTopList li .faqTopList span{display:inline;}
+.faq .faqTop .faqTopList li + li{margin-top:8px;}
+
+.faq .faq_tab{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_faq_tab.gif) left top repeat-x;padding:23px 0 10px;}
+.faq .faq_tab a{display:inline-block;width:49%;border:1px solid #bbbbbb;background-color:#fff;color:#7d7d7d;font-weight:bold;font-size:20px;height:46px;line-height:47px;text-align:center;}
+.faq .faq_tab a.on{border:1px solid #bbb;background-color:#707070;color:#fff;}
+.faq .faq_tab a.on:after,.faq .faq_tab a:hover:after{content:"";background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/common/bg_sel.gif) no-repeat;width:11px;height:5px;background-size:11px 5px;position:absolute;bottom:-1px;left:50%;margin-left:-6px;}
+
+.faqBox{overflow:hidden;}
+.faq .customerQ{height:auto;width:auto;position:relative;left:0;margin-bottom:30px;
+	/*-webkit-transition: left 0.8s ease-in-out 0.8s; 
+    transition: left 0.8s ease-in-out 0.8s;*/
+}
+
+.faq .selectMenu{float:none;width:100%;height:auto;padding:0;border-left:none;border-right:none;border-top:none;position:relative;border-bottom:none;}
+.faq .selectMenu fieldset{position:relative;border:1px solid #d1d1d1;width:100%;margin-left:0;margin-right:0;}
+.faq .selectMenu fieldset *{vertical-align:middle;}
+
+.faq .selectMenu ul li{float:left;width:33.33%;padding-top:26px;text-align:center;color:#707070;font-size:13px;}
+.faq .selectMenu ul li p{padding-top:9px;}
+.faq .selectMenu ul li.on{color:#029905;}
+
+.faq .selectViewBox{position:absolute;left:120%;top:0;background-color:#f5f5f5;width:100%;height:auto;min-height:220px;}
+.faq .selectViewBox #view{display:none;}
+
+.faq .selectView1{padding:0 23px 0 17px;overflow:hidden;}
+.faq .selectView{padding:0 23px 0 17px;overflow:hidden;}
+.faq .selectView .title{position:relative;padding:18px 0 14px 28px;}
+.faq .selectView .title .btnGo{display:block;position:absolute;top:14px;left:0;display:inline-block;width:22px;height:22px;}
+.faq .selectView .qList{padding:18px 0 30px;}
+.faq .selectView .qList li{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_qlist_42.png) left top no-repeat;padding:3px 0 3px 24px;background-size:18px 18px;}
+.faq .selectView .qList li.normal{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_qlist_w_42.png) left top no-repeat;padding:3px 0 3px 24px;background-size:18px 18px;}
+.faq .selectView .qList li + li{margin-top:10px;}
+
+.faq .qLink{display:none;}
+.selectView .aList dt{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bar_alist_dt.gif) left 5px no-repeat;padding-left:14px;padding-bottom:5px;}
+.selectView .aList dd{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_img_q_42.png) left 2px no-repeat;background-size:18px 18px;}
+.selectView .aList dd a{margin-left:24px;}
+
+/*faq view*/
+.pageNavi{text-align:right;padding-bottom:20px;display:none;}
+.customerView {border-left:none;}
+.customerView .selectView{display:none;}
+.customerView .selectView1{display:none;}
+.faq .customerView .selectViewBox{padding:0 15px;height:auto;position:relative;left:0;background:none;}
+.faq .customerView .selectViewBox .title{display:none;}
+
+.faq .customerView .selectViewBox .title_m *{vertical-align:middle;}
+.faq .customerView .selectViewBox .title_m span{position:absolute;left:33px; top:3px}
+.faq .customerView .selectViewBox .title_m{padding:3px 0 12px 53px;position:relative;display:block;border-bottom:none;line-height:22px;font-size:16px;font-family:"RgB",sans-serif;}
+.faq .customerView .selectViewBox .title_m a{position:absolute;left:0;top:0;font-size:16px;font-weight:bold;display:inline-block;}
+.faq .customerView .selectViewBox .title_m a img {width:26px;height:26px;}
+.faq .customerView .selectViewBox .answer{padding:30px 0;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_faq_tab.gif) left top repeat-x;font-size:14px;line-height:20px;}
+.faq .customerView .selectViewBox .answer p{word-break:keep-all}
+.faq .customerView .selectViewBox .answer div{word-break:keep-all}
+
+.faq .customerView.write{background-color:#f5f5f5;width:100%;padding-top:10px;}
+.faq .customerView.write .selectViewBox .title_m{color:#008c2a;padding:3px 0 12px 35px;border-bottom:1px solid #bbb;}
+
+.writeQ .enter .check label{padding-top:7px;}
+
+.btnSend{width:100%;padding:20px 0 40px;}
+.btnSend button{width:41%;font-size:18px;}
+
+
+/*blog*/
+.blog{padding-top:0px;background:none;}
+.blog .subHd{padding:7px 0 20px;}
+.blog .subHd h3{font-size:22px;text-align:center;display:block;padding-bottom:0px;}
+.blog .subHd h4{color:#424242;font-size:16px;text-align:center;padding:0 20px 20px 20px;line-height:20px;}
+.blog .subHd fieldset{float:none;border:1px solid #d1d1d1;width:100%;}
+
+.blog .grid {margin-bottom:10px;}
+.blog .grid .item{position:relative;margin-right:0;margin-bottom:20px;padding-bottom:0;float:none;}
+.blog .grid .item a{text-align:left;display:block;}
+.blog .grid .item a img{width:100%;}
+.blog .grid .item .item-text{background: #fff;bottom:0;min-height:20px;padding:10px 4% 5px;position: relative;width:100%;border-top:1px solid #e9e9e9;}
+.blog .grid .item .item-text button{float:right;margin-top:3px;padding-top:1px;height:15px;line-height:15px;padding-left:20px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/bg_cmd1.png) left top no-repeat;background-size:14px 13px;color:#f27f57;font-size:12px;}
+.blog .grid .item .item-text span{display:inline-block;font-size:14px;line-height:20px;width:76%;}
+.blog .grid .item-big , .blog .grid .item-medium , .blog .grid .item-small{width:100%;}
+.blog .grid .item .item-text .text a span{padding-top:1px;display:inline-block;width:100%;max-height:18px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.blog .grid .item-big .item-visual{height:auto;}
+.blog .grid .item-medium .item-visual{height:auto;}
+.blog .grid .item-small .item-visual{height:auto;}
+
+.blog .grid-1 .item-4{clear:left;margin-top:0;padding-bottom:0px;}
+.blog .grid-1 .item-6{;margin-top:0;padding-bottom:0px;}
+
+/*blogView*/
+.blog .blogView{color:#2a2a2a;}
+.blog .blogView .title{font-size:19px;font-family:"RgB",sans-serif;padding:6px 0 22px;}
+.blog .blogView .title span {line-height:26px;}
+.blog .blogView .title .bold{font-size:19px;padding-right:10px;}
+.blog .blogView .recommend{margin-top:-6px;margin-left:5px;height:15px;line-height:18px;padding-left:20px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/bg_cmd1.png) 1px top no-repeat;background-size:15px 14px;color:#f27f57;font-size:16px;}
+.blog .blogView .recommend1{margin-top:-6px;margin-left:5px;height:15px;line-height:18px;padding-left:20px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/bg_cmd1.png) left top no-repeat;background-size:15px 14px;color:#f27f57;font-size:16px;}
+.blog .blogView .date{display:none;}
+.blog .blogView .detail{margin-top:0;padding:35px 0 25px;}
+.blog .blogView .detail iframe{width:100%!important;}
+.blog .blogView .detail img{width:100%!important;}
+.blog .blogView .detail .information{font-size:14px;line-height:25px;padding-bottom:20px;border-bottom:1px solid #d9d9d9;margin-bottom:30px;}
+.blog .blogView .detail .img{text-align:center;padding-bottom:30px;}
+.blog .blogView .detail .frameVideo {width:100%;margin:0 auto;}
+.blog .blogView .detail .frameVideo .video{width:100%;height:auto;margin:0 auto;}
+.blog .blogView .detail .frameVideo .uTit{margin-top:30px;line-height:16px;font-size:14px;}
+.blog .blogView .detail .frameVideo .uTit span{width:82%;display:inline-block;}
+.blog .blogView .btn_rcmd{width:30px;height:30px;line-height:55px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_cmd_m.png) left top no-repeat;background-size:100% 100%;}
+.blog .blogView .btn_rcmd:hover{width:30px;height:30px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_cmd_m_over.png) left top no-repeat;background-size:100% 100%;}
+.blog .blogView #recommend2{margin-top:0px !important;}
+.blog .blogView .btn_rcmd1{height:14px;line-height:14px;margin:0 5px;padding-left:5px;border-left:1px solid #f27f57;font-size:14px; color:#f27f57;}
+.blog .blogView_paging{position:relative;text-align:center;padding:15px 0 30px;}
+.blog .blogView_paging .listbt{clear:both;float:none;margin:15px auto 0;display:inline-block;width:110px;height:31px;line-height:31px;border-radius:30px;background-image:none;background-color:#707070;color:#fff;font-family:"RgB",sans-serif;font-size:14px;text-align:center;border:2px solid #707070;}
+.blog .blogView_paging .listbt:hover{border-radius:30px;background-image:none;background-color:#fff;color:#6a6a6a;border:2px solid #6a6a6a;}
+.blog .blogView_paging .fbshare{clear:both;float:none;margin:15px auto 0;display:inline-block;width:110px;height:31px;line-height:31px;border-radius:30px;background:url("http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_fb.png") no-repeat;background-color:#397cda;color:#fff;font-family:"RgB",sans-serif;font-size:14px;text-align:center;padding-left:13px;background-size:8px auto;background-position:25px 50%;border:2px solid #397cda;color:#fff}
+.blog .blogView_paging .fbshare:hover{width:110px;height:31px;line-height:31px;background:url("http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/bg_fb_over.png") no-repeat;background-size:106px 31px;background-color:#fff;border:2px solid #397cda;color:#397cda;background-size:8px auto;background-position:25px 50%;}
+.blog .blogView_paging a{margin:0 10px;line-height:33px;font-size:18px;}
+.blog .blogView_paging .list{clear:both;float:none;margin:15px auto 0;display:block;width:150px;height:31px;line-height:33px;border-radius:30px;background-image:none;background-color:#707070;color:#fff;font-family:"RgB",sans-serif;font-size:14px;text-align:center;}
+.blog .blogView_paging .top{display:none;}
+.blog .blogView_paging a img{vertical-align:middle;}
+
+.blog .blogView_paging .arrow1{display:inline-block;width:11px;height:20px;}
+.blog .blogView_paging .arrow2{display:inline-block;width:18px;height:20px;}
+
+.blog .blogView_paging .firstP{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_firstP_m.gif) left top no-repeat;background-size:100% 100%;}
+.blog .blogView_paging .prevP{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_prevP_m.gif) left top no-repeat;background-size:100% 100%;}
+.blog .blogView_paging .nextP{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_nextP_m.gif) left top no-repeat;background-size:100% 100%;}
+.blog .blogView_paging .lastP{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/btn_lastP_m.gif) left top no-repeat;background-size:100% 100%;}
+
+.blog .reply{padding-top:30px;}
+.blog .reply .th{border-top:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;background-color:#f6f6f6;padding:20px 20px 15px;color:#2a2a2a;font-size:17px;font-family:"RgB",sans-serif;}
+.blog .reply .th .btnReply{float:right;color:#2a2a2a;font-size:17px;line-height:21px;font-family:"RgB",sans-serif;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/icon_reply_off.png) left center no-repeat;background-size:11px 7px;padding-left:20px;}
+.blog .reply .th.on .btnReply{background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/blog/icon_reply_on.png) left center no-repeat;background-size:11px 7px;}
+.blog .reply .th.on + .replyWr{display:none;}
+
+.blog .reply .replyWr{padding-top:8px;}
+.blog .reply .replyWr ul li{text-align:left;padding:8px 20px;}
+.blog .reply .replyWr ul li input{padding:12px;border:1px solid #bbb;border-radius:0;width:100%;}
+.blog .reply .replyWr ul li p{float:none;width:100%;text-align:left;}
+.blog .reply .replyWr ul li p + p{margin-top:16px;}
+.blog .reply .replyWr ul li p label{width:30%;padding-bottom:0px;}
+.blog .reply .replyWr ul li p input{width:70%;}
+.blog .reply .replyWr ul li label{vertical-align:top;display:inline-block;width:100%;text-align:left;color:#2a2a2a;font-size:17px;padding-top:10px;padding-bottom:10px;}
+.blog .reply .replyWr ul li textarea{width:100%;height:160px;overflow-y:auto;padding:12px;border:1px solid #bbb;border-radius:0;}
+.blog .reply .regi{text-align:center;padding:16px 0;}
+.blog .reply .regi button{width:110px;height:31px;line-height:28px;border-radius:30px;}
+
+.blog .blogViewTb table{width:100%;}
+.blog .blogViewTb table th{border-top:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;background-color:#f6f6f6;padding:20px 0;color:#2a2a2a;font-size:17px;font-family:"RgB",sans-serif;}
+.blog .blogViewTb table td{text-align:center;font-size:17px;padding:20px 0;border-bottom:1px solid #d9d9d9;}
+.blog .blogViewTb table td a{display:inline-block;text-align:left;width:100%;padding-left:20px;position:relative;}
+.blog .blogViewTb table td a *{vertical-align:middle;}
+.blog .blogViewTb table td a img{position:absolute;left:0;top:3px;}
+.blog .blogViewTb table td .lock{text-align:left;font-size:14px;padding:20px 0 10px 20px;}
+.blog .blogViewTb table td .lock p{line-height:25px;padding-bottom:5px;}
+.blog .blogViewTb table td .lock span{color:#f15542;}
+.blog .blogViewTb table td .lock input{width:50%;padding:12px;border:1px solid #bbb;border-radius:0;}
+.blog .blogViewTb table td .lock .ok{margin-left:10px;width:60px;height:41px;line-height:41px;text-align:center;background-color:#707070;color:#fff;font-family:"RgB",sans-serif;}
+
+.blog .blogViewTb table td .openLk + .lock{display:none;}
+.blog .blogViewTb table td .openLk.on + .lock{display:block;}
+
+.blog .m{display:none;}
+
+/* privacy */
+.privacy {margin-top:5px; padding-bottom:30px;}
+.privacy h3 {letter-spacing:-2px;padding:20px 0 10px;}
+table.type01 thead th	{font-size:10pt; padding:8px 0 5px; }
+table.type01 tbody th	{padding:5px 0 2px;}
+table.type01 tbody td	{padding:5px 5px 2px;}
+
+
+/*pop*/
+.pop .closePop{position:absolute;top:-41px;right:0;width:50px;height:50px;}
+#utube{display:none;padding:16px;background-color:#fff;border-radius:5px;width:500px;height:300px;}
+#utube .frameBox{width:500px;height:300px;}
+.writeQ .enter li.file input[type="text"]{width:60%;}
+
+/* theme */
+.theme .sec02{margin-bottom:30px;}
+.theme .sec02 .step li .btn{text-align:center;}
+.theme .sec02 .step li .btn a{font-size:15px;width:190px;padding-top:11px;margin-right:0;}
+.theme .sec02 .title.pc{display:none;}
+.theme .sec02 .title.mobile{display:block;}
+}
+
+
+@media all and (max-width: 480px){
+/*service*/
+.t114 .sec01 .txtBox h3{margin:0 auto;}
+/*faq*/
+.faq .faqTop .tit{float:none;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/tit_faq_m.gif) left top no-repeat;width:93%;height:46px;padding:0;margin:0 auto;background-size:140px 26px;}
+.faq .faqTop .faqTopList{padding:20px 0;}
+.faq .faq_tab a{font-size:18px;height:36px;line-height:39px;}
+.writeQ .enter input[type="checkbox"]{margin-top:-3px;}
+
+/*pop*/
+.pop .closePop{position:absolute;top:-30px;right:0;width:37px;height:37px;}
+#utube{display:none;padding:10px;background-color:#fff;border-radius:5px;width:300px;height:180px;}
+#utube .frameBox{width:300px;height:180px;}
+
+/*pop*/
+#suggestPop{width:80%;height:auto;padding:25px 20px;}
+#suggestPop h1{font-size:16px;color:#008d2e;font-family:"RgB",sans-serif;text-align:center;padding-bottom:20px;}
+#suggestPop .text{color:#444;font-size:12px;line-height:16px;padding-bottom:22px;}
+#suggestPop .agree{color:#707070;padding:20px 10px;border:1px solid #bababa;height:auto;overflow-y:hidden;overflow-x:hidden; box-sizing: border-box; -webkit-box-sizing: border-box;}
+#suggestPop .btn{text-align:center;padding-top:20px;}
+#suggestPop .btn button{width:33%;}
+#suggestPop .btn button + button{margin-left:10px;}
+}
+
+@media all and (max-width: 320px){
+/*service*/
+.faq .faqTop .faqTopList li{padding-left:26px;background:url(http://kbgc231ksg.c-cdn.tcloudbiz.com/common/images/customer/icon_q.png) left 2px no-repeat;background-size:18px 18px;}
+.section .title{font-size:21px;text-indent:0;text-align:center;line-height:26px;padding-bottom:10px;}
+.link .utb{width:140px;height:27px;line-height:29px;font-size:14px;padding-left:17px;}
+.link .more{width:90px;height:27px;line-height:29px;font-size:14px;}
+
+.t114 .sec01 .txtBox h3{margin:0 auto;}
+.faq .selectView .title{cursor:pointer;padding:18px 0 14px 26px;font-size:15px;}
+.writeQ .enter.enterTop label{width:40%;}
+.writeQ .enter.enterTop input{width:55%;} 
+
+.event .blogView .detail{margin-top:20px;}
+.blogView .dateRight{float:none;line-height:normal;}
+
+/*pop*/
+.pop .closePop{position:absolute;top:-20px;right:0;width:28px;height:28px;}
+#utube{display:none;padding:16px;background-color:#fff;border-radius:5px;width:270px;height:160px;}
+#utube .frameBox{width:270px;height:160px;}
+
+
+}

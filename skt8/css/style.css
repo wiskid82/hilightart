@@ -1,0 +1,102 @@
+@charset "utf-8";
+*{-webkit-text-size-adjust:none;}
+body {background-color: #e6e6e6;font-family:"맑은 고딕","MalgunGothic",'나눔바른고딕','Nanum Barun Gothic','Apple SD Gothic Neo','나눔 고딕','Nanum Gothic', '돋움',sans-serif;}
+html, body, div, span, ul, li, p { margin: 0; padding: 0; border: 0; }
+html, body { height:100%; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+ol, ul { list-style: none; }
+img { max-width: 100%; }
+.guide { z-index:1; text-align: center; }
+.guide, .slidesjs-container, .slidesjs-control { height:100%; }
+
+.guide .page_1, .guide .page_2, .guide .page_3, .guide .page_4, .guide .page_5, .guide .page_6 {
+    height:100%;
+}
+.guide .page_1 {
+    background-color: #6ec9f4;
+}
+.guide .page_2 {
+    background-color: #7edadb;
+}
+.guide .page_3 {
+    background-color: #7edadb;
+}
+.guide .page_4 {
+    background-color: #fec87b;
+}
+.guide .page_5 {
+    background-color: #fec87b;
+}
+.guide .page_6 {
+    background-color: #fec87b;
+}
+/*
+.close {
+    position: absolute;
+    right:3%;
+    top:3%;
+    z-index: 100;
+    cursor:pointer;
+}
+*/
+.guide .title {
+    padding:6% 0 3% 0;
+    font-size: 30px;
+    color:#ffffff;
+}
+.guide .imgWrap {
+    display: inline-block;
+    width:65%;
+    margin:0 auto;
+}
+.guide .summary {
+    position: absolute;
+    z-index: 10;
+    bottom:0;
+    left:0;
+    width:100%;
+	color:#555;
+    background-color: #f7f7f7;
+    height: 65px;
+    padding: 10px 0 0 0;
+    font-size: 15px;
+}
+.slidesjs-pagination { position: absolute;left: 0;bottom:3px;z-index:11;text-align: center;width: 100%; }
+.slidesjs-pagination li {
+    display: inline-block;
+}
+.slidesjs-pagination li a {
+    text-indent: -2000px;display: inline-block;width: 7px;height: 7px;border-radius: 7px;background: #acacac;margin: 0 3px;cursor: pointer;
+}
+.slidesjs-pagination li a.active {
+    background: #000000;
+}
+.slidesjs-navigation {
+    position: absolute;bottom:7%;z-index:10;text-indent: -9000px;width:24px;height:39px;
+}
+
+/*
+.slidesjs-navigation.slidesjs-previous {
+    bottom:300px;
+    left:10px;
+    background: url("../images/btn_pre.png");
+    margin:-18px 0 0 0;
+}
+.slidesjs-navigation.slidesjs-next  {
+    bottom:300px;
+    right:3%;
+    background: url("../images/btn_next.png");
+    margin:-18px 0 0 0;
+}
+*/
+/*@media (min-width: 400px) {*/
+    /*.guide .summary {*/
+        /*position: absolute;*/
+        /*z-index: 10;*/
+        /*bottom:0;*/
+        /*width:100%;*/
+        /*background-color: #f7f7f7;*/
+        /*height: 34%;*/
+        /*padding: 20px 0 0 0;*/
+        /*font-size: 15pt;*/
+    /*}*/
+/*}*/

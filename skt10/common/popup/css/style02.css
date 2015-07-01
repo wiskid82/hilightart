@@ -1,0 +1,38 @@
+/* reset */
+html, body, div, h2, p, ul, li{margin: 0; padding: 0; font-family: "droid sans", 'nanumGothic', sans-serif;}
+img{display: block; vertical-align: top;}
+a{border: 0;}
+li{list-style: none;}
+
+/* contents */
+.container{max-width: 640px; margin: 0 auto;}
+.container img{width: 100%;}
+
+.main_visu{position: relative;}
+
+.btn-small{display: inline-block; width: 31%; padding: 1% 0; font-size: 14px; font-weight: bold; text-decoration: none; text-align: center; color: #808080; border: 1px solid #b3b3b3; border-radius: 50px;}
+.btn-large{display: inline-block; width: 100%; padding: 3.4% 0; text-decoration: none; font-size: 14px; font-weight: bold; color: #808080; border: 2px solid #b3b3b3; border-radius: 5px;}
+
+.list-btn{position: absolute; bottom: 0; width: 80%; height: 46%; margin: 10.2% 10%; background: url(../img/type02/bg_btn.jpg) no-repeat 0 0; background-size: 100% auto;}
+.list-btn li{height: 25.4%;}
+.list-btn li + li{border-top: 1px solid #dbdbdb;}
+.list-btn li a{display: inline-block; width: 81%; height: 100%; padding-left: 19%; font-weight: bold; line-height: 1; vertical-align: middle; text-decoration: none; color: #4c4c4c;}
+.list-btn li a:before{content: ""; display: block; width: 100%; height: 50%; margin-top: -3%;}
+
+.tit_wrap{position: absolute; top: 2.2%; width: 100%; text-align: center;}
+.tit_wrap h2{color: #333;}
+.tit_wrap p{margin-top: 2.2%; font-weight: bold; color: #808080;}
+
+.contents{position: relative;}
+.contents .notice{position: absolute; bottom: 5%; width: 83%; margin: 0 7% 0 10%; color: #808080;}
+.contents .notice p{line-height: 160%;}
+.contents .notice p + p{margin-top: 3%;}
+
+.event{position: relative;}
+.event .tit_wrap{top: 6.6%;}
+.event .tit_wrap p{margin-top: 1.8%; line-height: 150%;}
+.event .btn-wrap{position: absolute; top: 35.2%; width: 100%; text-align: center;}
+
+.version{position: relative; padding: 5%; text-align: center; background-color: #e6e6e6;}
+.version p{font-weight: bold; color: #808080;}
+.version .btn-wrap{margin-top: 5%; width: 100%; text-align: center;}

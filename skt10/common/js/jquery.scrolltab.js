@@ -1,0 +1,1 @@
+$(window).scroll(function(){st=$(document).scrollTop();if(st>580){$("#top-menu").attr("class","mapFixed")}else{$("#top-menu").attr("class","mapPos")}});

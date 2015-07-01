@@ -1,0 +1,22 @@
+/* reset */
+html, body, div, ul, li{margin: 0; padding: 0;}
+img{display: block; vertical-align: top;}
+a{border: 0;}
+li{list-style: none;}
+
+/* contents */
+.container{max-width: 640px; margin: 0 auto;}
+.container img{width: 100%;}
+
+.main_visu{position: relative;}
+
+.list-btn{position: absolute; bottom: 0; margin: 8% 10%;}
+.list-btn li + li{border-top: 1px solid #dbdbdb;}
+
+.event{position: relative;}
+.event a{display: inline-block; width: 31.25%;}
+.event .wrap-btn{position: absolute; top: 35.2%; width: 100%; text-align: center;}
+
+.version{position: relative;}
+.version a{display: inline-block; margin: 0 4.6%;}
+.version .wrap-btn{position: absolute; top: 42.2%; width: 100%; text-align: center;}

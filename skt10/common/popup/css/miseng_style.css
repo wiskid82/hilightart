@@ -1,0 +1,32 @@
+@charset ="utf-8";
+
+/* reset */
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+html{-ms-touch-action:none;}
+html{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none}
+html,body{width:100%;height:100%}
+html{outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent}
+header,footer,section,article,aside,nav,hgroup,details,menu,figure,figcaption{display:block}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,figure,figcaption,label,button{margin:0;padding:0}
+body{font-family:roboto,sans-serif;font-size:12px;-webkit-text-size-adjust:none;background:#f7edd3 url(../img/miseng/bg.gif) repeat 0 0;background-size:7px 7px}
+h1,h2,h3,h4,h5,h6{font-weight:bold}
+table{width:100%;margin:0;padding:0;border-collapse:collapse;border-spacing:0}
+caption,th{text-align:left}
+img,ul,li,input{vertical-align:middle}
+fieldset,img{border:0}
+input{margin:0;padding:0}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+em,address{font-style:normal}
+button,a,a:hover,a:active,a:focus{text-decoration:none;outline:none}
+.blind,legend{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
+button{overflow:visible;border:0 none;background-color:transparent;cursor:pointer;-webkit-appearance:none;outline:none}
+button::-moz-focus-inner{padding:0;border:0}
+
+/* event */
+.event .cont img{width:100%;max-width:100%;height:auto;}
+.event .cont .top{position:relative;}
+.event .cont .top .btn{display:block;position:absolute;bottom:0;left:50%;width:46%;margin-left:-23%;}
+.event .cont .toon{position:relative;}

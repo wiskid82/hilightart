@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* ------------------------------------------------------------
+ * Name		: basic.css
+ * Desc		: 샘플  기본구성요소 및 레이아웃
+ * Created	: 2014-01-20 
+ * Updated	:
+ ------------------------------------------------------------ */
+/* Type Selector */
+/* html{-webkit-tap-highlight-color:  rgba(0, 0, 0, 0); } focus hide */
+html, body{width:100%;-webkit-text-size-adjust:auto;font-family:LGSmart, Arial, sans-serif;background:#fff;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,nav,menu,section,article,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button{margin:0;padding:0;-webkit-text-size-adjust:auto;}
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption{display:block}
+body,input,textarea,select,table,button{}
+body{font-size:12px; color:#707070;word-wrap:break-word; word-break:break-all; }
+h1,h2,h3,h4,h5,h6{font-size:1em}
+textarea,input,select {resize:none; font-size:12px;}
+img,fieldset{border: none;}
+ul,ol, menu, li{list-style:none;}
+a{text-decoration:none; color:#333;}
+a:visited{color:#333;}
+a:hover, a:active, a:focus{text-decoration:none}
+em,address{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+textarea {color: #b2b2b2; border: 1px solid #b2b2b2;}
+input, button{vertical-align:middle}
+input[type=checkbox]{border:none;}
+/* .alt : */
+.alt, 
+.skipNavi, 
+.hide{width:0; height:0; overflow:hidden; visibility:hidden; font-size:0; line-height:0;text-indent:-10000px;} /* For Screen Reader */
+button{border:none;background:transparent;cursor:pointer;overflow: visible;outline:none;}
+button span,button img{position:relative;}
+
+/* font */
+
+@font-face {
+			    font-family: 'RgL';
+			    src: url('/common/fonts/RixSGoL.eot');
+			    src: url('/common/fonts/RixSGoL.eot?#iefix') format('embedded-opentype'),
+			         url('/common/fonts/RixSGoL.woff') format('woff'),
+			         url('/common/fonts/RixSGoL.ttf') format('truetype'),
+			         url('/common/fonts/RixSGoL.svg#impact_labelregular') format('svg');
+			    font-weight: normal;
+			    font-style: normal;
+			
+			}
+
+@font-face {
+			    font-family: 'RgB';
+			    src: url('/common/fonts/RixSGoB.eot');
+			    src: url('/common/fonts/RixSGoB.eot?#iefix') format('embedded-opentype'),
+			         url('/common/fonts/RixSGoB.woff') format('woff'),
+			         url('/common/fonts/RixSGoB.ttf') format('truetype'),
+			         url('/common/fonts/RixSGoB.svg#impact_labelregular') format('svg');
+			    font-weight: normal;
+			    font-style: normal;
+			
+			}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}

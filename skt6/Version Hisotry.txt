@@ -1,0 +1,13 @@
+Version History
+T전화_App_앱스소개
+
+v1.2 : apps_150330 버전 기준으로 다음 내용을 수정함 (강혜정 대리)
+
+1) 산돌네오고딕1, 나눔바른고딕, 나눔고딕, 산셰리프 순으로 지정
+2) jQuery는 아래 코드를 넣어주세요. 
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type=”text/javascript” src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+3) CSS와 JS를 html 속에 넣어야 할 경우에는 별도로 말씀 드리겠습니다. 그 외에는 분리 부탁 드립니다. 
+4) 루프 막는 코드 제거

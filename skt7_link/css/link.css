@@ -1,0 +1,40 @@
+@charset "utf-8";
+*{-webkit-text-size-adjust:none;color: #585858}
+body {background-color: #e6e6e6;font-family:"맑은 고딕","MalgunGothic",'나눔바른고딕','Nanum Barun Gothic','Apple SD Gothic Neo','나눔 고딕','Nanum Gothic', '돋움',sans-serif;}
+html, body, div, span, ul, li, p, h1, h2{ margin: 0; padding: 0; border: 0; }
+html, body { height:100%; }
+ol, ul { list-style: none; }
+
+body {
+    background: url("../images/bg_link.png") 0 0 no-repeat;
+    background-size: cover;
+}
+.head {
+    padding-top:35px;
+    text-align: center;
+}
+.head span {
+    display: block;
+    margin-bottom: 10px;
+}
+.playPhone {
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+}
+.playPhone span {
+    vertical-align: top;
+    width: 80%;
+    margin-left:10%;
+    display: inline-block;
+    background: url("../images/img_hphone.png") 0 0 no-repeat;
+    background-size: cover;
+    min-height:253px;
+}
+.playPhone span img {
+    position: absolute;
+    bottom:30%;
+    left:50%;
+    margin:-30px 0 0 -30px;
+}

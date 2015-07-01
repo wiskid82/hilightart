@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<title>T 연락처</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+<body>
+<div>
+  <div class="head">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 ext">
+          <h1 class="text-center"><img src="./images/t_contact.png" alt="T 연락처"></h1>
+          <p>복잡한 연락처 정리 T연락처로 한번에 해결하세요</p>
+          <span class="btn_view"><a href="https://skt-phone.co.kr/introduce/contact.do"><img src="./images/btn_view.png" alt="자세히 보기"></a></span>
+        </div>
+        <div class="col-6 text-center img"><img src="./images/img_phone.png" alt="T 연락처"></div>
+      </div>
+    </div>
+  </div>
+  <div class="body">
+    <div class="container">
+      <div class="row">
+        <p class="text-center notice">T연락처는 안드로이드 폰에서 사용하실 수 있습니다.</p>
+      </div>
+      <div class="row">
+        <div class="col-6 text-center">
+          <a id="linkAdr" href="#"><span class="panel">
+            <img src="./images/img_playstore.png" alt="T 연락처">
+            <h2>Google Play Store</h2>
+            <p>Google Play Store에서 T연락처를 다운받을 수 있습니다.</p>
+          </span></a>
+        </div>
+        <div class="col-6 text-center">
+          <a id="linkTstore" href=""><span class="panel">
+            <img src="./images/img_tstore.png" alt="T 연락처">
+            <h2>T Store</h2>
+            <p>T Store에서 T연락처를 다운받을 수 있습니다.</p>
+          </span></a>
+        </div>
+      </div>
+      <div></div>
+    </div>
+  </div>
+
+</div>
+  <script>
+  $(function() {
+
+    if( /Android/i.test(navigator.userAgent) ) {
+      $('#linkAdr').attr("href","market://details?id=com.skt.prod.phonebook");
+    }
+    else {
+      $('#linkAdr').attr("href","https://play.google.com/store/apps/details?id=com.skt.prod.phonebook");
+    }
+
+    if( /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+      $('#linkTstore').attr("href","http://m.tstore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000368399&strPrePageNm=0c05007E&strDisplayOrder=1&strPid=0000368399&strBannerId=&strSearchword=t%EC%97%B0%EB%9D%BD%EC%B2%98&dateKey=MW150430170014836628");
+    }
+    else {
+      $('#linkTstore').attr("href","http://www.tstore.co.kr/userpoc/apps/view?pid=0000368399");
+    }
+
+  });
+</script>
+</body>
+</html>

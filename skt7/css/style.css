@@ -1,0 +1,101 @@
+@charset "utf-8";
+*{-webkit-text-size-adjust:none;color: #585858}
+body {background-color: #e6e6e6;font-family:"맑은 고딕","MalgunGothic",'나눔바른고딕','Nanum Barun Gothic','Apple SD Gothic Neo','나눔 고딕','Nanum Gothic', '돋움',sans-serif;}
+html, body, div, span, ul, li, p, h1, h2{ margin: 0; padding: 0; border: 0; }
+html, body { height:100%; }
+ol, ul { list-style: none; }
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+img {vertical-align: top;}
+.row:before,
+.row:after {
+    display: table;
+    content: " ";
+}
+.row:after {
+    clear: both;
+}
+.col-6 {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 50%;
+}
+@media (max-width: 980px) {
+    .col-6 {
+        width:100%;
+    }
+}
+.text-center {
+    text-align: center;
+}
+
+.head {
+    background: #000000 url("../images/bg_contact.png") 50% 0 no-repeat;
+    background-size:cover;
+    overflow: hidden;
+}
+.head h1 {
+    padding-top:140px;
+    text-align: center;
+}
+.head p {
+    padding:20px 70px 0 100px;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 100;
+}
+.head .btn_view {
+    margin-top:35px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.head .img {
+    padding-top:80px;
+}
+.head .img img {
+    width:100%;
+}
+@media (max-width: 768px) {
+    .head h1 {
+        padding-top:30px;
+    }
+    .head p {
+        padding:17px 0px;
+        text-align: center;
+    }
+}
+.body {
+    padding-bottom: 38px;
+}
+.body .notice {
+    font-size:24px;
+    padding: 30px 30px 17px 30px;
+}
+.body .panel {
+    display: inline-block;
+    background-color: #ffffff;
+    margin-top:13px;
+    padding:12px;
+    border-radius: 12px;
+}
+.body .panel h2 {padding:17px 0 0 7px; text-align: left}
+.body .panel p {padding:7px 0 7px 7px; text-align: left}
+.body .panel img {width:100%}

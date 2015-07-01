@@ -1,0 +1,58 @@
+@charset "utf-8";
+html, body, div, span
+h1, h2, h3, h4, h5, h6, p, ol, ul, li { margin: 0; padding: 0; border: 0; outline: 0; }
+article,section{display:block;}
+body { height:100%; font-family:'SDGothicNeo1','NanumBarunGothic','NanumGothic',sans-serif; line-height:1; font-weight:400; }
+h1, h2, h3, h4, h5, h6 {font-weight:500;}
+html { width:100%; height:100%; }
+ol, ul { list-style: none; }
+a {text-decoration:none; cursor:pointer;display:inline-block;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:active {text-decoration:none;}
+a:hover {text-decoration:none;cursor:pointer;}
+a:focus {text-decoration:none;}
+img{max-width:100%;}
+h1{font-size:28px;line-height:1.3em;font-family:'SDGothicNeo1','NanumBarunGothic','NanumGothic',sans-serif;}
+.container { margin: 0 auto; height:100%;}
+#slides { height: 100%; }
+#slides li{position:relative;}
+.subTit{font-size:17px; line-height:1.5em;color:#444444;}
+.page1{text-align:center;}
+.page1 h1{padding-top:30px;color:#000;}
+.page1 .subTit { font-size:15px; }
+.page2 article{padding-left:30px;}
+.page2 h1{padding-top:23px;color:#ce0010;margin-bottom: 10px;}
+.page3 article{position:absolute;top:44px;right:30px;text-align:right;}
+.page3 h1{color:#8629bc;margin-top:0;margin-bottom: 10px;}
+.page3 img{width:92%;}
+.page4 article{padding-left:30px;padding-bottom:40px;float:left;}
+.page4 h1{padding-top:23px;margin-bottom: 10px;color:#fab001;}
+.page4 img{width:96%;}
+.page5 article{text-align:center;padding-bottom:44px;}
+.page5 h1{font-size:20px;padding-top:54px;}
+.page5 .ver{color:#eb3916;font-size:13px;}
+
+
+.slidesjs-pagination .active {background-color:#000;}
+.slidesjs-pagination{width:100%;position:fixed;bottom:10px;left:0;text-align:center;z-index: 100}
+.slidesjs-pagination li{display:inline-block;margin:0 2px;}
+.slidesjs-pagination li a{width:6px;height:6px;background-color:#bfbfbf;border-radius:25px;font-size:0;}
+@media (max-width: 480px) {
+  .container {
+	width: auto;height:100%;
+  }
+}
+@media (max-width: 320px) {
+ .page4 h1{padding-bottom:10px;color:#fab001;}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+	width: 724px
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+	width: 1170px
+  }
+}

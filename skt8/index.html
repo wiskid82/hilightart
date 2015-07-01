@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<title>업체명</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<ul class="guide">
+  <li class="page_1">
+    <p class="title">기부를<br />검색해보세요</p>
+    <span class="imgWrap"><img src="./images/01.png"></span>
+    <p class="summary">T전화로 기부를 검색하면<br />
+      보이는 통화로 기부 할 수 있는<br />
+      기부단체 목록이 보여집니다</p>
+  </li>
+  <li class="page_2">
+    <p class="title">캠페인을<br />알아보세요</p>
+    <span class="imgWrap"><img src="./images/02.png"></span>
+    <p class="summary">보이는 통화로 통화를 하면<br />
+      기부처의 기부 캠페인을<br />
+      통화 중 화면에서 볼 수 있습니다</p>
+  </li>
+  <li class="page_3">
+    <p class="title">캠페인을<br />알아보세요</p>
+    <span class="imgWrap"><img src="./images/03.png"></span>
+    <p class="summary">보이는 통화로 통화를 하면<br />
+      기부처의 기부 캠페인을<br />
+      통화 중 화면에서 볼 수 있습니다</p>
+  </li>
+  <li class="page_4">
+    <p class="title">소중한 나눔을<br />가져보세요</p>
+    <span class="imgWrap"><img src="./images/04.png"></span>
+    <p class="summary">원하는 금액을 선택하고 결제하면<br />
+      내 휴대폰 요금으로 청구되고<br />
+      기부금 100%가 기관에 전달됩니다</p>
+  </li>
+  <li class="page_5">
+    <p class="title">소중한 나눔을<br />가져보세요</p>
+    <span class="imgWrap"><img src="./images/05.png"></span>
+    <p class="summary">원하는 금액을 선택하고 결제하면<br />
+      내 휴대폰 요금으로 청구되고<br />
+      기부금 100%가 기관에 전달됩니다</p>
+  </li>
+  <li class="page_6">
+    <p class="title">소중한 나눔을<br />가져보세요</p>
+    <span class="imgWrap"><img src="./images/06.png"></span>
+    <p class="summary">원하는 금액을 선택하고 결제하면<br />
+      내 휴대폰 요금으로 청구되고<br />
+      기부금 100%가 기관에 전달됩니다</p>
+  </li>
+</ul>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+<script>
+  $(function(){
+    $(".guide").slidesjs({
+      width:"100%",
+      height: "100%",
+	  pagination: {
+      active: false,
+      effect: "slide"
+     },
+      play: {
+        effect: "slide",
+        interval: 3000,
+        auto: true,
+        pauseOnHover: true,
+        restartDelay: 2500
+      },
+      navigation: {
+        active: true,
+        effect: "slide"
+      },
+	  effect: {
+		fade: {
+			speed: 800
+		}
+	  }
+    });
+  });
+</script>
+</body>
+</html>
